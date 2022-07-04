@@ -1,0 +1,17 @@
+/* .tiktok-player {
+    height: 100vh;
+} */
+
+.video {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.tiktok-player {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}

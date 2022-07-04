@@ -1,0 +1,55 @@
+.video-footer {
+    color: white;
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+    bottom: 100px;
+    /* right: 62px; */
+}
+
+.video-footer-text {
+    flex: 1;
+}
+
+.video-footer-text > h3 {
+    padding-bottom: 5px;
+}
+
+.video-footer-text > p {
+    padding-bottom: 10px;
+}
+
+.video-footer-ticker h1 {
+    padding-top: 7px;
+}
+
+.video-footer-ticker > .ticker {
+    width: 60%;
+    height: fit-content;
+    margin-left: 30px;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.video-footer-record {
+    display: flex;
+    animation: recordSpin infinite 5s linear;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.video-footer-icon {
+    position: absolute;
+}
+
+@keyframes recordSpin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
